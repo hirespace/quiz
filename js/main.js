@@ -8,6 +8,7 @@ $(document).ready(function(){
 	// If clicking on a radio button hide the error message if it is there
 	$("input[type='radio']").click(function(){
 		$('[data-role=error]').addClass('hidden');
+		$('[data-role="submit-answer"]').removeClass('disabled');
 	});
 
 	// On clicking onto next question
