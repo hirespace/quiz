@@ -8,12 +8,11 @@ $(document).ready(function(){
 	// If clicking on a radio button hide the error message if it is there
 	$("input[type='radio']").click(function(){
 		$('[data-role=error]').addClass('hidden');
-		$('[data-role="submit-answer"]').removeClass('disabled');
+		$('[data-role="submit-answer"]').removeClass('btn-disabled hidden');
 	});
 
 	// On clicking onto next question
 	$('[data-role=submit-answer]').click(function(event){
-		// event.preventDefault();
 		var thisButton = $(this);
 		var thisAnswer = $("input[type='radio']:checked");
 
@@ -35,10 +34,12 @@ $(document).ready(function(){
 			}
 			totalQuestions ++;
 			localStorage.setItem('totalQuestions', totalQuestions);
+			$(this).removeClass('btn-disabled hidden');
 		}
 		// Otherwise show an error
 		else {
 			event.preventDefault();
+			$('[data-role="submit-answer"]').addClass('hidden');
 			$('[data-role=error]').removeClass('hidden');
 		}
 	});
