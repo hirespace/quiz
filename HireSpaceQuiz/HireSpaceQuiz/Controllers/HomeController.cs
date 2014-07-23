@@ -6,11 +6,21 @@ using System.Web.Mvc;
 
 namespace HireSpaceQuiz.Controllers
 {
+    using Mindscape.Raygun4Net;
+
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            return View();
+            try
+            {
+                return View();
+            }
+            catch(Exception ex)
+            {
+                new RaygunClient().Send(ex);
+                return this.View();
+            }
         }
 
         public ActionResult Question1()

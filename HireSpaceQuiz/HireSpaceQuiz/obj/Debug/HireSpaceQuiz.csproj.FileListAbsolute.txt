@@ -24,3 +24,6 @@ G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\bin\System.Web.WebPages.xml
 G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\bin\System.Web.WebPages.Deployment.xml
 G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\bin\System.Web.WebPages.Razor.xml
 G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\obj\Debug\HireSpaceQuiz.csprojResolveAssemblyReference.cache
+G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\bin\Mindscape.Raygun4Net.dll
+G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\bin\Raygun.Diagnostics.dll
+G:\dev\quiz\HireSpaceQuiz\HireSpaceQuiz\bin\Mindscape.Raygun4Net.pdb
