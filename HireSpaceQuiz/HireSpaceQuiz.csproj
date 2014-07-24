@@ -140,9 +140,9 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="Views\Home\Index.cshtml">
+    <Content Include="Views\Home\Index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <Content Include="Views\Home\leaderboard.cshtml" />
     <Content Include="Views\Home\question1.cshtml" />
     <Content Include="Views\Home\question2.cshtml" />
