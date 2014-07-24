@@ -56,3 +56,4 @@ G:\dev\quiz\HireSpaceQuiz\bin\System.Web.WebPages.Razor.xml
 G:\dev\quiz\HireSpaceQuiz\obj\Debug\HireSpaceQuiz.csprojResolveAssemblyReference.cache
 G:\dev\quiz\HireSpaceQuiz\obj\Debug\HireSpaceQuiz.dll
 G:\dev\quiz\HireSpaceQuiz\obj\Debug\HireSpaceQuiz.pdb
+G:\dev\quiz\HireSpaceQuiz\bin\Views\Home\Index.cshtml

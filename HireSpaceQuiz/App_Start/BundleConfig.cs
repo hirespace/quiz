@@ -13,7 +13,7 @@ namespace HireSpaceQuiz
                         "~/Scripts/main.js"
                         ));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/bundles/css").Include(
                      "~/Content/css/main.css"));
         }
     }
