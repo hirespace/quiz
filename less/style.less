@@ -188,7 +188,7 @@ form {
 	text-align: center;
 	font-size: 14px;
 	line-height: 1.3;
-	margin-right: 0.5%;
+	margin-left: 0.5%;
 	background-color: @link-color;
 	color: @white;
 	padding: 5px 0;
@@ -198,11 +198,11 @@ form {
     transition: all linear 0.3s;
 
 	&:hover {
-		background-color: lighten(@link-color, 5%);
+		background-color: lighten(@link-color, 8%);
 	}
 }
-.radio:last-child {
-	margin-right: 0;
+.radio:first-child {
+	margin-left: 0;
 }
 .radio label {
 	cursor: pointer;
@@ -301,5 +301,14 @@ form {
 	}
 	.radio label {
 		min-height: 55px;
+	}
+}
+
+.ie8 {
+	form {
+		width: 476px;
+	}
+	.question-number {
+		height: 35px;
 	}
 }
