@@ -47,11 +47,5 @@ namespace HireSpaceQuiz.Controllers
             return View("scorecard");
         }
 
-        public ActionResult Leaderboard()
-        {
-            return View("leaderboard");
-        }
-
-
     }
 }
