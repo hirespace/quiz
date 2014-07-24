@@ -143,13 +143,13 @@
     <None Include="Views\Home\Index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Views\Home\leaderboard.cshtml" />
-    <None Include="Views\Home\question1.cshtml" />
-    <None Include="Views\Home\question2.cshtml" />
-    <None Include="Views\Home\question3.cshtml" />
-    <None Include="Views\Home\question4.cshtml" />
-    <None Include="Views\Home\question5.cshtml" />
-    <None Include="Views\Home\scorecard.cshtml" />
+    <Content Include="Views\Home\leaderboard.cshtml" />
+    <Content Include="Views\Home\question1.cshtml" />
+    <Content Include="Views\Home\question2.cshtml" />
+    <Content Include="Views\Home\question3.cshtml" />
+    <Content Include="Views\Home\question4.cshtml" />
+    <Content Include="Views\Home\question5.cshtml" />
+    <Content Include="Views\Home\scorecard.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
