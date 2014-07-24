@@ -13,7 +13,11 @@
 	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
 
 </head>
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if IE 8]><body class="ie8"><![endif]-->
+<!--[if !IE]>-->
 <body>
+<!--<![endif]-->
 	<header>
 		<div class="header sm-padding">
 			<div class="container">
@@ -33,9 +37,9 @@
 		<div class="container med-padding">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
-					<div class="clearfix">
+					<div class="clearfix question-container">
 						<h2 class="question-number">Q1</h2>
-						<h3 class="question">For which festival was the Southbank Centre created in 1951?</h3>
+						<h3 class="question">For which festival was the <a href="https://hirespace.com/Venues/2113">Southbank Centre</a> created in 1951?</h3>
 					</div>
 					<img class="question-image" src="https://hirespacestoragelive.blob.core.windows.net/spaces/ls-xxl/9289/tujzprhxixo.jpg" alt="Southbank Centre" />
 					<form action="post" class="text-left clearfix">
@@ -56,7 +60,7 @@
 						</div>
 					</form>
 					<div data-role="error" class="error upper hidden">
-						You need to select an answer.
+						Pleasse select an answer.
 					</div>
 					<a data-role="submit-answer" data-question="1" href="question2.html" class="btn btn-primary btn-disabled upper">Next Question <span class="glyphicon glyphicon-play"></span></a>
 				</div>
