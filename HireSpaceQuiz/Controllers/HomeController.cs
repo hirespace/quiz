@@ -12,15 +12,9 @@ namespace HireSpaceQuiz.Controllers
     {
         public ActionResult Index()
         {
-            try
-            {
-                return View();
-            }
-            catch(Exception ex)
-            {
-                new RaygunClient().Send(ex);
-                return this.View();
-            }
+
+            return View();
+
         }
 
         public ActionResult Question1()
