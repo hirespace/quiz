@@ -56,6 +56,7 @@ $(document).ready(function(){
 	if ($('[data-role=score]')) {
 		$('[data-role="score"]').html(localStorage.totalScore + ' out of ' + localStorage.totalQuestions);
 		$('[data-role="score-description"]').html(descriptions()[localStorage.totalScore]);
+		$('.addthis_sharing_toolbox').attr('data-title', ('I scored ' + localStorage.totalScore + ' out of ' + localStorage.totalQuestions + ' on the Hire Space Quiz! Give it a go!'));
 	}
 
 	// The final score descriptions
