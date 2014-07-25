@@ -145,7 +145,6 @@
     <Content Include="Views\Home\Index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Views\Home\leaderboard.cshtml" />
     <Content Include="Views\Home\question1.cshtml" />
     <Content Include="Views\Home\question2.cshtml" />
     <Content Include="Views\Home\question3.cshtml" />
