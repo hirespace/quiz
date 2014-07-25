@@ -9,6 +9,8 @@ $(document).ready(function(){
 	$("input[type='radio']").click(function(){
 		$('[data-role=error]').addClass('hidden');
 		$('[data-role="submit-answer"]').removeClass('btn-disabled hidden');
+		$('.radio').removeClass('active');
+		$(this).closest('.radio').addClass('active');
 	});
 
 	// On clicking onto next question
