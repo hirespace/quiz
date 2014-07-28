@@ -62,12 +62,14 @@ $(document).ready(function(){
 	// The final score descriptions
 	function descriptions() {
 		return [
-		"<h5 class='upper'>Spaced Out</h5>Old and Rusty and like the Victoria Tube Carriage at Walthamstow - you're going nowhere fast.",
-		"<h5 class='upper'>Waste of Space</h5>Wuhoh! Like Shoreditch Town Hall, you talk big but you're just a load of empty space.",
-		"<h5 class='upper'>Space Cadet</h5>Like the Safehouses in Peckham, whilst you've got a lot of potential, you just aren't quite there yet. You've let yourself go, peeling paint and a slightly damp smell. You think you're a cool derelict venue - we think you're a run down set of public loos",
-		"<h5 class='upper'>Space Bar</h5>A Clerkenwell Centre convert - you're keen but just a bit uninspired. We advise some sports event themed promotions.",
-		"<h5 class='upper'>Watch this Space</h5>Like Tanner and Co, you're a rising star on the events scene. More practice and fewer scotch eggs, you'll be a winner.",
-		"<h5 class='upper'>Super Space Freak</h5>Like Searcy's at the Gherkin, snotty and you deserve to be."
+		"<h5 class='upper'>Waste of Space</h5>Wuhoh! Your mind is like <a href='http://hirespace.com/Venues/1024/Shoreditch-Town-Hall'>Shoreditch Town Hall></a>, but without the pretty face.",
+		"<h5 class='upper'>Spaced Out</h5>Old and rusty and like the <a href='http://hirespace.com/Spaces/6485/Walthamstow-Pumphouse-Museum/Victoria-Line-Carriage/Film-and-Photo'>Victoria Tube Carriage at Walthamstow</a> - you're going nowhere fast.",
+		"<h5 class='upper'>Outta Space</h5>Like the <a href='http://hirespace.com/Venues/2400/The-Safehouses-Maverick-Project'>Safehouses in Peckham</a>, you're damp, peeling and in dire need of renovation",
+		"<h5 class='upper'>Space Bar</h5>Oh dear! Your knowledge is as tiny as <a href='http://hirespace.com/Spaces/10615/ArtsLav/The-Lavs/Film-and-Photo'>Arts Lav</a> - and you probably smell a bit whiffy too.",
+		"<h5 class='upper'>Space Cadet</h5>A <a href='http://hirespace.com/Venues/1894/Clerkenwell-Centre'>Clerkenwell Centre</a> convert - you're keen and learning quickly. We advise some sports event themed promotions.",
+		"<h5 class='upper'>Between a Rock and a Hire Space</h5>Your self-esteem might be crumbling like the walls of <a href='http://hirespace.com/Spaces/7178/The-Asylum/The-Chapel/Film-Photo'>The Asylum</a> - but don't worry, you're only a quick renovation away from brilliance.",
+		"<h5 class='upper'>Watch this Space</h5>Like <a href='http://hirespace.com/Spaces/7293/Tanner-and-Co/The-Event-Space/Events'>Tanner and Co</a>, you're a rising star on the events scene. More practice and fewer scotch eggs, you'll be a winner.",
+		"<h5 class='upper'>Super Space Freak</h5>Like <a href='http://hirespace.com/Venues/210/SearcysThe-Gherkin'>Searcy's at the Gherkin</a>, you think you're above everyone else - and you are."
 		]
 	}
 	// The answers!
@@ -77,6 +79,8 @@ $(document).ready(function(){
 		"3",
 		"2",
 		"2",
+		"1",
+		"3",
 		"1"
 		];
 	}

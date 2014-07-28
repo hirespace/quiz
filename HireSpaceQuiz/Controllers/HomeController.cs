@@ -42,6 +42,16 @@ namespace HireSpaceQuiz.Controllers
             return View("question5");
         }
 
+        public ActionResult Question6()
+        {
+            return View("question6");
+        }
+
+        public ActionResult Question7()
+        {
+            return View("question7");
+        }
+
         public ActionResult Scorecard()
         {
             return View("scorecard");
