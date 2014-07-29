@@ -54,7 +54,7 @@ $(document).ready(function(){
 
 	// Fill in scores
 	if ($('[data-role=score]')) {
-		$('[data-role="score"]').html(localStorage.totalScore + ' out of ' + localStorage.totalQuestions);
+		$('[data-role="score"]').html(localStorage.totalScore + '<span class="smaller">out of</span>' + localStorage.totalQuestions);
 		$('[data-role="score-description"]').html(descriptions()[localStorage.totalScore]);
 		$('.addthis_sharing_toolbox').attr('data-title', ('I scored ' + localStorage.totalScore + ' out of ' + localStorage.totalQuestions + ' on the Hire Space Quiz! Give it a go!'));
 	}
@@ -62,7 +62,7 @@ $(document).ready(function(){
 	// The final score descriptions
 	function descriptions() {
 		return [
-		"<h5 class='upper'>Waste of Space</h5>Wuhoh! Your mind is like <a href='http://hirespace.com/Venues/1024/Shoreditch-Town-Hall'>Shoreditch Town Hall></a>, but without the pretty face.",
+		"<h5 class='upper'>Waste of Space</h5>Wuhoh! Your mind is like <a href='http://hirespace.com/Venues/1024/Shoreditch-Town-Hall'>Shoreditch Town Hall</a>, but without the pretty face.",
 		"<h5 class='upper'>Spaced Out</h5>Old and rusty and like the <a href='http://hirespace.com/Spaces/6485/Walthamstow-Pumphouse-Museum/Victoria-Line-Carriage/Film-and-Photo'>Victoria Tube Carriage at Walthamstow</a> - you're going nowhere fast.",
 		"<h5 class='upper'>Outta Space</h5>Like the <a href='http://hirespace.com/Venues/2400/The-Safehouses-Maverick-Project'>Safehouses in Peckham</a>, you're damp, peeling and in dire need of renovation",
 		"<h5 class='upper'>Space Bar</h5>Oh dear! Your knowledge is as tiny as <a href='http://hirespace.com/Spaces/10615/ArtsLav/The-Lavs/Film-and-Photo'>Arts Lav</a> - and you probably smell a bit whiffy too.",
