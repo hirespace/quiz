@@ -129,16 +129,6 @@
     <Content Include="apple-touch-icon.png" />
     <Content Include="Content\css\main.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\img\q1image.jpg" />
-    <Content Include="Content\img\q2image.jpg" />
-    <Content Include="Content\img\q3image.jpg" />
-    <Content Include="Content\img\q4image.jpg" />
-    <Content Include="Content\img\q5image.jpg" />
-    <Content Include="Content\img\q5imageb.jpg" />
-    <Content Include="Content\img\q5imagec.jpg" />
-    <Content Include="Content\img\q6image.jpg" />
-    <Content Include="Content\img\q7image.jpg" />
-    <Content Include="Content\img\q8image.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery.js" />
@@ -156,6 +146,8 @@
     <Content Include="Views\Home\question3.cshtml" />
     <Content Include="Views\Home\question4.cshtml" />
     <Content Include="Views\Home\question5.cshtml" />
+    <Content Include="Views\Home\question6.cshtml" />
+    <Content Include="Views\Home\question7.cshtml" />
     <Content Include="Views\Home\scorecard.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -214,8 +206,6 @@
     <Content Include="Content\less\utilities.less" />
     <Content Include="Content\less\variables.less" />
     <None Include="Project_Readme.html" />
-    <Content Include="Views\Home\question6.cshtml" />
-    <Content Include="Views\Home\question7.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
