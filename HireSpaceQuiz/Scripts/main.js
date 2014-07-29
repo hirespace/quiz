@@ -20,10 +20,11 @@ $(document).ready(function(){
 
 		// If they have answered
 		if (thisAnswer.length > 0) {
+			$(this).find('.loading').removeClass('hidden');
+			$(this).find('.button-text').addClass('hidden');
 			thisAnswer = thisAnswer.val();
 			var correctAnswer = answers()[thisButton.data('question') - 1];
 
-			console.log(totalScore);
 			if (thisAnswer === correctAnswer) {
 				if (localStorage.totalScore) {
 					totalScore = localStorage.totalScore;
